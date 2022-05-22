@@ -2,7 +2,7 @@ from random import random
 
 import numpy as np
 from sklearn import metrics
-
+# KMeans
 class KMeans:
     def __init__(self, data, K):
         self.data = data
